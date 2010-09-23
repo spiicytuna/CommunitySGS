@@ -31,7 +31,7 @@ Clean() {
 }
 
 
-device=`zenity --title "Choose your device" --text "Please select your device from the following list." --height 380 --width 250 --list --radiolist --column "" --column "    Please Select An Option" True "Vibrant" False "Captivate" False "Clean Sources"`
+device=`zenity --title "Choose your device" --text "Please select your device from the following list." --height 380 --width 250 --list --radiolist --column "" --column "    Please Select An Option" False "Vibrant" False "Captivate" True "Epic" False "Clean Sources"`
 		case $device in
 		 	"Vibrant")Vibrant;;
 		 	"Captivate")Captivate;;
