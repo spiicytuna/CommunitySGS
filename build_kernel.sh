@@ -12,6 +12,12 @@ Captivate() {
 
 }
 
+Epic() {
+                PROJECT_NAME=aries
+                HW_BOARD_REV=02
+
+}
+
 Clean() {
 		echo "Clean Kernel"
 		pushd linux-2.6.29
