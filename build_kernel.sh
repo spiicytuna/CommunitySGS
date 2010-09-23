@@ -35,6 +35,7 @@ device=`zenity --title "Choose your device" --text "Please select your device fr
 		case $device in
 		 	"Vibrant")Vibrant;;
 		 	"Captivate")Captivate;;
+			"Epic")Epic;;
 			"Clean Sources")Clean;;
 		esac
 
@@ -47,7 +48,7 @@ if [ "$CPU_JOB_NUM" = "" ] ; then
 	CPU_JOB_NUM=8
 fi
 
-TOOLCHAIN=../arm-eabi-4.4.0/bin
+TOOLCHAIN=../arm-2010q1/bin
 TOOLCHAIN_PREFIX=arm-eabi-
 
 KERNEL_BUILD_DIR=linux-2.6.29
